@@ -1,0 +1,20 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.central{
+  background-color: rgb(255, 255, 255);
+  height: 500px;
+  width: 400px;
+  border-radius: 20px;
+}
+
+.banner {
+  height: 160px;
+  font-size: 30px;
+}
+body {
+  background-image: linear-gradient(to right, rgb(87, 137, 222), rgb(175, 115, 214));
+}
