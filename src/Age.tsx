@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 const Age: React.FC = () => {
     const [name, setName] = useState<string>("");
     const [age, setAge] = useState<number | string>("");
-    const isNumber = (num: string): boolean => /^\d+$/.test(num);
+    // const isNumber = (num: string): boolean => /^\d+$/.test(num);
 
     const handleNameChange = (event: React.ChangeEvent<HTMLInputElement>): void => {
         setName(event.target.value);
