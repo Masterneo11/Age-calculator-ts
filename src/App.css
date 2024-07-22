@@ -38,3 +38,14 @@ body {
   justify-content: space-around;
 
 }
+.result {
+  font-size: 20px;
+  
+  
+  padding-top: 20px;
+  padding-right: 10px;
+  background: linear-gradient(to right, rgb(61, 177, 108), rgb(188, 108, 217));
+  -webkit-background-clip: text;
+  color: transparent;
+  
+}
